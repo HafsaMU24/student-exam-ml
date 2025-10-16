@@ -19,6 +19,14 @@ Målet är att förutsäga studenters exam_score baserat på deras vanor och bak
 
 ##  Hur du kör projektet
 1. Klona repot:
-   ```bash
    git clone https://github.com/<ditt_namn>/student-exam-ml.git
    cd student-exam-ml
+2. Starta API:
+   python app.py
+3. Testa API:t i Postman eller via curl:
+   POST http://127.0.0.1:5000/predict och andra endapoint(GET)
+
+## Modeller och resultat
+ - Flera regressionsmodeller tränades och jämfördes.
+ - Random Forest presterade bäst med högst R² och lägst RMSE.
+ - Modellen sparades och används i API:t för prediktioner.
