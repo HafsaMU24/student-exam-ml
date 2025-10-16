@@ -19,7 +19,7 @@ Målet är att förutsäga studenters exam_score baserat på deras vanor och bak
 
 ##  Hur du kör projektet
 1. Klona repot:
-   git clone https://github.com/<ditt_namn>/student-exam-ml.git
+   git clone https://github.com/HafsaMU24/student-exam-ml.git
    cd student-exam-ml
 2. Starta API:
    python app.py
